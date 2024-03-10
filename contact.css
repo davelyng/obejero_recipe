@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: whitesmoke
+    ;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.container h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.container p {
+    margin-bottom: 20px;
+}
+
+.msg {
+    margin-bottom: 20px;
+}
+
+.msg label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.msg input,
+.msg textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+}
+
+.submit {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.submit button {
+    background-color: #211951;
+    color: #fff;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit button:hover {
+    background-color: #1a1138;
+}

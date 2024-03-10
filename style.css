@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: whitesmoke;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container h1 {
+    color: #211951;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #211951;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.nav a:hover {
+    background-color: rgba(33, 25, 81, 0.8); /* Dark purple with transparency */
+    border-color: #211951;
+}
+
+.search {
+    background: whitesmoke;
+    width: max-content;
+    display: flex;
+    align-items: center;
+    padding: 14px;
+    border-radius: 20px;
+    margin-right: 10px;
+    justify-content: center;
+}
+
+.search input {
+    font-size: 15px;
+    font-family: sans-serif;
+    color: black;
+    background: transparent;
+    margin-left: 14px;
+    width: 300px;
+}
+
+.content {
+    background: rgba(0, 0, 0, 0.6) url('foods.jpg'); /* Adjust the path as needed */
+    background-blend-mode: darken;
+    background-size: cover;
+    position: relative;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+.content h2 {
+    font-family: sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.content p {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.img-container {
+    text-align: center;
+    margin: 10px;
+}
+
+.offer h1 {
+    color: #211951;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.offer ul {
+    list-style-type: circle;
+    padding-left: 20px;
+    text-align: justify;
+    text-size-adjust: 100px;
+
+}
+
+.join {
+    position: absolute;
+    bottom: 0; /* Align the element to the bottom of its containing element */
+    width: 100%; /* Ensure the element takes the full width */
+    text-align: center; /* Center the content horizontally */
+    margin-top: 40px; /* Add margin to space it out */
+    margin-bottom: 20px;
+}
+
+.join h2 {
+    color: #211951;
+    margin-bottom: 20px;
+}
+
+.join p {
+    text-align: center;
+    margin-bottom: 30px;
+}
